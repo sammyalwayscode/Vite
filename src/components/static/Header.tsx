@@ -11,7 +11,7 @@ const Header = () => {
           </div>
         </Link>
         <div>
-          <Link to="/pricing">
+          <Link to="/product">
             <span className="px-3.5 font-semibold text-sm ">Products</span>
           </Link>
           <Link to="/enteprice">
