@@ -1,7 +1,7 @@
 const Enterprise = () => {
   return (
     <div>
-      <h1>Check Out Our Enteprice</h1>
+      <h1>Enteprice Content coming soon</h1>
     </div>
   );
 };

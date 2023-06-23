@@ -12,15 +12,35 @@ const Header = () => {
         </Link>
         <div>
           <Link to="/product">
-            <span className="px-3.5 font-semibold text-sm ">Products</span>
+            <span className="px-3.5 font-semibold text-sm text-black hover:text-blue-700 ">
+              Products
+            </span>
           </Link>
           <Link to="/enteprice">
-            <span className="px-3.5 font-semibold text-sm ">Enterprise</span>
+            <span className="px-3.5 font-semibold text-sm text-black hover:text-blue-700">
+              Enterprise
+            </span>
           </Link>
-          <span className="px-3.5 font-semibold text-sm ">Pricing</span>
-          <span className="px-3.5 font-semibold text-sm ">Resources</span>
-          <span className="px-3.5 font-semibold text-sm ">Community</span>
-          <span className="px-3.5 font-semibold text-sm ">Log In</span>
+          <Link to="/pricing">
+            <span className="px-3.5 font-semibold text-sm text-black hover:text-blue-700">
+              Pricing
+            </span>
+          </Link>
+          <Link to="/resources">
+            <span className="px-3.5 font-semibold text-sm text-black hover:text-blue-700">
+              Resources
+            </span>
+          </Link>
+          <Link to="/community">
+            <span className="px-3.5 font-semibold text-sm text-black hover:text-blue-700">
+              Community
+            </span>
+          </Link>
+          <Link to="/login">
+            <span className="px-3.5 font-semibold text-sm text-black hover:text-blue-700">
+              Log In
+            </span>
+          </Link>
           <button className="bg-blue-700 font-bold text-white">
             Get Started For Free
           </button>
