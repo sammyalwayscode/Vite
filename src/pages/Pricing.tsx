@@ -1,7 +1,9 @@
+import PricingCard from "../components/block/PricingCard";
+
 const Pricing = () => {
   return (
     <div>
-      <h1>Pricing Content coming Soon</h1>
+      <PricingCard />
     </div>
   );
 };
